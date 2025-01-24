@@ -6,6 +6,10 @@ package api
 // #include "../lib.h"
 import "C"
 
+import (
+	"github.com/valkey-io/valkey-glide/go/glide/api/options"
+)
+
 // GlideClusterClient interface compliance check.
 var _ GlideClusterClientCommands = (*GlideClusterClient)(nil)
 
